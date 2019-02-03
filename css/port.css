@@ -1,0 +1,86 @@
+.i1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.heads {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sp {
+    margin: 20px;
+}
+#i1 {
+    position: relative;
+    left: 2%;
+    display: inline;
+}
+.word {
+    position: absolute;
+    bottom: 20px;
+    left: 19px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#p2 {
+    overflow: unset;
+    height: 1000px;
+}
+.di {
+    position: relative;
+    top: 5%;
+    left: 3%;
+    display: inline;
+}
+.d2 {
+    position: absolute;
+    top: 7%;
+    right: 6%;
+    display: inline;
+}
+.w2 {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.d3 {
+    position: absolute;
+    top: 47%;
+    right: 6%;
+    display: inline;
+}
+.w3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.d4 {
+    position: absolute;
+    top: 47%;
+    left: 6%;
+    display: inline;
+}
+.w4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3 {
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: maroon;
+}

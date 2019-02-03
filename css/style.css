@@ -1,0 +1,90 @@
+/*This section of CSS represents most of the stuff for the header*/
+h1, h2, h3, h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.75cm;
+    font-size: 16px;
+    padding: 10px;
+}
+#dv1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    padding-left: 200px;
+    overflow: auto;
+    height: 60px;
+    padding-top: 20px;
+    z-index: 20;
+}
+.oh {
+    text-align: right;
+    display: inline;
+    background: maroon;
+    padding: 21px;
+    color: #C0C0C0;
+}
+h4 {
+    position: relative;
+    left: 28%;
+    text-align: right;
+    display: inline;
+    margin: 5px;
+}
+a {
+    color: gray;
+    text-decoration: none; /* no underline */
+  }
+.lb {
+    border-right: 2px solid gray;
+    padding-right: 7px;
+}
+/*This section will be the main css for the content of the Main Page*/
+.dv2 {
+    position: relative;
+    overflow: auto;
+    margin-top: 100px;
+    width: 960px;
+    margin-left: 200px;
+    background: #A9A9A9;
+    z-index: 1;
+}
+.bb {
+    border-bottom: 2px solid grey;
+    margin: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.img {
+    border: 1px solid gray;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* This is the CSS for the footer to function*/
+html, body {
+    height: 100%;
+}
+.df {
+    position: fixed;
+    bottom: 0;
+    right:0;
+    background: black;
+    width:100%;
+    height: 65px;
+    z-index: 10;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background: maroon;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
