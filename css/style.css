@@ -88,3 +88,61 @@ footer {
     padding-bottom: 20px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 980px) {
+    #dv1 {
+        padding-left: 50px;
+        max-width: 980px;
+        height: 50px;
+    }
+    .dv2 {
+        margin: 100px auto;
+        margin-left: 43px;
+        max-width: 620px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #dv {
+        padding-left: 25px;
+        max-width: 768px;
+    }
+    .dv2 {
+        margin: 100px auto;
+        max-width: 600px;
+    }
+    .oh {
+        font-size: 24px;
+        height: 75px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    h4 {
+        left: 12%;
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    #dv {
+        position: static;
+        top: 0%;
+        left: 0%;
+        padding: 0px;
+        border: 0px;
+        max-width: 640px;
+        height: 150px;
+        overflow: visible;
+        background: none;
+    }
+    .oh {
+        position: absolute;
+        top: 0%;
+        display: block;
+        padding: 0px;
+        height: 50px;
+        text-align: none;
+    }
+    .dv2 {
+        margin: 50px auto;
+        max-width: 500px;
+}

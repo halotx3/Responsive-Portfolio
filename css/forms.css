@@ -33,3 +33,17 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: red;
 }
+@media screen and (max-width: 980px) {
+    input[type=text], textarea {
+        max-width: 440px;
+    }
+    label {
+        display: block;
+    
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 640px) {
+    
+}
