@@ -123,26 +123,20 @@ footer {
     
 }
 @media screen and (max-width: 640px) {
-    #dv {
-        position: static;
-        top: 0%;
-        left: 0%;
-        padding: 0px;
-        border: 0px;
-        max-width: 640px;
-        height: 150px;
-        overflow: visible;
-        background: none;
-    }
     .oh {
-        position: absolute;
-        top: 0%;
+        max-width: 640px;
         display: block;
         padding: 0px;
-        height: 50px;
-        text-align: none;
+        margin: 0%;
+        float: left;
+    }
+    #dv {
+        padding-left: 0px;
+        max-width: 640px;
+        margin: 0%;
     }
     .dv2 {
         margin: 50px auto;
         max-width: 500px;
+    }
 }
