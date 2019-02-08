@@ -84,3 +84,21 @@ h3 {
     text-align: center;
     background-color: maroon;
 }
+@media screen and (max-width: 980px) {
+    .di,.d2,.d3,.d4 {
+        display: block;
+        position: unset;
+    }
+    .word,.w2,.w3,.w4 {
+        position: initial;
+    }
+    .dv2 {
+        height: 600px;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 640px) {
+    
+}
